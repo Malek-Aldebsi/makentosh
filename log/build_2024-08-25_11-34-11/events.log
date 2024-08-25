@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (-) JobUnselected: {'identifier': 'ball_tracker'}
+[0.000168] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.000208] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.000224] (-) JobUnselected: {'identifier': 'joy_tester'}
+[0.000238] (-) JobUnselected: {'identifier': 'merge_map'}
+[0.000251] (-) JobUnselected: {'identifier': 'multi_bots'}
+[0.000264] (-) JobUnselected: {'identifier': 'serial'}
+[0.000278] (-) JobUnselected: {'identifier': 'serial_motor_demo'}
+[0.000290] (-) JobUnselected: {'identifier': 'serial_motor_demo_msgs'}
+[0.000305] (bot) JobQueued: {'identifier': 'bot', 'dependencies': OrderedDict()}
+[0.000322] (bot) JobStarted: {'identifier': 'bot'}
+[0.099386] (-) TimerEvent: {}
+[0.199575] (-) TimerEvent: {}
+[0.299774] (-) TimerEvent: {}
+[0.400037] (-) TimerEvent: {}
+[0.500299] (-) TimerEvent: {}
+[0.576856] (bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bot', 'build', '--build-base', '/home/khader/makentosh/build/bot/build', 'install', '--record', '/home/khader/makentosh/build/bot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/khader/makentosh/src/bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'khader', 'LC_TIME': 'ar_JO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/khader', 'OLDPWD': '/home/khader', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_JO.UTF-8', 'SYSTEMD_EXEC_PID': '2146', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/khader/makentosh/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'khader', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'khader', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/khader/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khader-Nitro-AN515-54:@/tmp/.ICE-unix/2112,unix/khader-Nitro-AN515-54:/tmp/.ICE-unix/2112', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_JO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bc46d421_5e45_4869_9382_7f0f1bd29298', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_JO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.92', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khader/makentosh/install/bot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_JO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_JO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_JO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/khader/makentosh/build/bot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/khader/makentosh/build/bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khader/makentosh/install/bot/lib/python3.10/site-packages:/home/khader/makentosh/install/bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_JO.UTF-8', 'LC_PAPER': 'ar_JO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.600378] (-) TimerEvent: {}
+[0.700603] (-) TimerEvent: {}
+[0.798712] (bot) StdoutLine: {'line': b'running egg_info\n'}
+[0.799074] (bot) StdoutLine: {'line': b'creating ../../build/bot/bot.egg-info\n'}
+[0.799344] (bot) StdoutLine: {'line': b'writing ../../build/bot/bot.egg-info/PKG-INFO\n'}
+[0.799506] (bot) StdoutLine: {'line': b'writing dependency_links to ../../build/bot/bot.egg-info/dependency_links.txt\n'}
+[0.799660] (bot) StdoutLine: {'line': b'writing entry points to ../../build/bot/bot.egg-info/entry_points.txt\n'}
+[0.799760] (bot) StdoutLine: {'line': b'writing requirements to ../../build/bot/bot.egg-info/requires.txt\n'}
+[0.799850] (bot) StdoutLine: {'line': b'writing top-level names to ../../build/bot/bot.egg-info/top_level.txt\n'}
+[0.799990] (bot) StdoutLine: {'line': b"writing manifest file '../../build/bot/bot.egg-info/SOURCES.txt'\n"}
+[0.800662] (-) TimerEvent: {}
+[0.801323] (bot) StdoutLine: {'line': b"reading manifest file '../../build/bot/bot.egg-info/SOURCES.txt'\n"}
+[0.802098] (bot) StdoutLine: {'line': b"writing manifest file '../../build/bot/bot.egg-info/SOURCES.txt'\n"}
+[0.802223] (bot) StdoutLine: {'line': b'running build\n'}
+[0.802277] (bot) StdoutLine: {'line': b'running build_py\n'}
+[0.802409] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/build/bot/build\n'}
+[0.802515] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/build/bot/build/lib\n'}
+[0.802648] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/build/bot/build/lib/bot\n'}
+[0.802734] (bot) StdoutLine: {'line': b'copying bot/__init__.py -> /home/khader/makentosh/build/bot/build/lib/bot\n'}
+[0.802821] (bot) StdoutLine: {'line': b'running install\n'}
+[0.802926] (bot) StdoutLine: {'line': b'running install_lib\n'}
+[0.803442] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot\n'}
+[0.803604] (bot) StdoutLine: {'line': b'copying /home/khader/makentosh/build/bot/build/lib/bot/__init__.py -> /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot\n'}
+[0.803828] (bot) StdoutLine: {'line': b'byte-compiling /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot/__init__.py to __init__.cpython-310.pyc\n'}
+[0.803974] (bot) StdoutLine: {'line': b'running install_data\n'}
+[0.804092] (bot) StdoutLine: {'line': b'copying package.xml -> /home/khader/makentosh/install/bot/share/bot\n'}
+[0.804303] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.804440] (bot) StdoutLine: {'line': b'copying launch/navigation_launch.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.804546] (bot) StdoutLine: {'line': b'copying launch/online_async_launch.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.804636] (bot) StdoutLine: {'line': b'copying launch/explore.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.804724] (bot) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.804843] (bot) StdoutLine: {'line': b'copying launch/launch_robot.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.804935] (bot) StdoutLine: {'line': b'copying launch/localization_launch.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805023] (bot) StdoutLine: {'line': b'copying launch/launch_sim.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805128] (bot) StdoutLine: {'line': b'copying launch/ball_tracker.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805296] (bot) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805392] (bot) StdoutLine: {'line': b'copying launch/pi.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805471] (bot) StdoutLine: {'line': b'copying launch/camera.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805550] (bot) StdoutLine: {'line': b'copying launch/rplidar.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805635] (bot) StdoutLine: {'line': b'copying launch/pc.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch\n'}
+[0.805718] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.805790] (bot) StdoutLine: {'line': b'copying description/gazebo_control.xacro -> /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.805866] (bot) StdoutLine: {'line': b'copying description/robot.urdf.xacro -> /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.805914] (bot) StdoutLine: {'line': b'copying description/ros2_control.xacro -> /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.805983] (bot) StdoutLine: {'line': b'copying description/robot.trans -> /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.806053] (bot) StdoutLine: {'line': b'copying description/robot_core.xacro -> /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.806463] (bot) StdoutLine: {'line': b'copying description/camera.xacro -> /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.806865] (bot) StdoutLine: {'line': b'copying description/lidar.xacro -> /home/khader/makentosh/install/bot/share/bot/description\n'}
+[0.807078] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.807151] (bot) StdoutLine: {'line': b'copying meshes/camera.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.807424] (bot) StdoutLine: {'line': b'copying meshes/laser_frame.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.807677] (bot) StdoutLine: {'line': b'copying meshes/chassis.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.808107] (bot) StdoutLine: {'line': b'copying meshes/cover.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.808656] (bot) StdoutLine: {'line': b'copying meshes/LR_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.808951] (bot) StdoutLine: {'line': b'copying meshes/RR_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.809153] (bot) StdoutLine: {'line': b'copying meshes/LF_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.809846] (bot) StdoutLine: {'line': b'copying meshes/RF_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.810491] (bot) StdoutLine: {'line': b'copying maps/orange.data -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.811805] (bot) StdoutLine: {'line': b'copying maps/orange.pgm -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.812430] (bot) StdoutLine: {'line': b'copying maps/map.posegraph -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.819675] (bot) StdoutLine: {'line': b'copying maps/map.data -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.820541] (bot) StdoutLine: {'line': b'copying maps/map.pgm -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.820857] (bot) StdoutLine: {'line': b'copying maps/ora.data -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.822032] (bot) StdoutLine: {'line': b'copying maps/orange.posegraph -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.834037] (bot) StdoutLine: {'line': b'copying maps/ora.posegraph -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.847136] (bot) StdoutLine: {'line': b'copying maps/ora.pgm -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.847895] (bot) StdoutLine: {'line': b'copying maps/map.yaml -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.848344] (bot) StdoutLine: {'line': b'copying maps/orange.yaml -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.848573] (bot) StdoutLine: {'line': b'copying maps/ora.yaml -> /home/khader/makentosh/install/bot/share/bot/meshes\n'}
+[0.848823] (bot) StdoutLine: {'line': b'creating /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.848896] (bot) StdoutLine: {'line': b'copying config/rviz_settings.rviz -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.849124] (bot) StdoutLine: {'line': b'copying config/ball_tracker_params_sim.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.849316] (bot) StdoutLine: {'line': b'copying config/ball_tracker_params_robot.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.849467] (bot) StdoutLine: {'line': b'copying config/mapper_params_online_async.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.849631] (bot) StdoutLine: {'line': b'copying config/my_controllers.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.849813] (bot) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.850012] (bot) StdoutLine: {'line': b'copying config/gaz_ros2_ctl_use_sim.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.850085] (bot) StdoutLine: {'line': b'copying config/twist_mux.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.850255] (bot) StdoutLine: {'line': b'copying config/joystick.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.850410] (bot) StdoutLine: {'line': b'copying config/gazebo_params.yaml -> /home/khader/makentosh/install/bot/share/bot/config\n'}
+[0.850564] (bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.852002] (bot) StdoutLine: {'line': b'Copying ../../build/bot/bot.egg-info to /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot-0.0.0-py3.10.egg-info\n'}
+[0.852694] (bot) StdoutLine: {'line': b'running install_scripts\n'}
+[0.869048] (bot) StdoutLine: {'line': b"writing list of installed files to '/home/khader/makentosh/build/bot/install.log'\n"}
+[0.887429] (bot) CommandEnded: {'returncode': 0}
+[0.895601] (bot) JobEnded: {'identifier': 'bot', 'rc': 0}
+[0.896001] (-) EventReactorShutdown: {}

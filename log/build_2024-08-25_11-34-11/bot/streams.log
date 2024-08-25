@@ -1,0 +1,83 @@
+[0.578s] Invoking command in '/home/khader/makentosh/src/bot': PYTHONPATH=/home/khader/makentosh/build/bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khader/makentosh/install/bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bot build --build-base /home/khader/makentosh/build/bot/build install --record /home/khader/makentosh/build/bot/install.log --single-version-externally-managed install_data
+[0.798s] running egg_info
+[0.799s] creating ../../build/bot/bot.egg-info
+[0.799s] writing ../../build/bot/bot.egg-info/PKG-INFO
+[0.799s] writing dependency_links to ../../build/bot/bot.egg-info/dependency_links.txt
+[0.799s] writing entry points to ../../build/bot/bot.egg-info/entry_points.txt
+[0.799s] writing requirements to ../../build/bot/bot.egg-info/requires.txt
+[0.800s] writing top-level names to ../../build/bot/bot.egg-info/top_level.txt
+[0.800s] writing manifest file '../../build/bot/bot.egg-info/SOURCES.txt'
+[0.801s] reading manifest file '../../build/bot/bot.egg-info/SOURCES.txt'
+[0.802s] writing manifest file '../../build/bot/bot.egg-info/SOURCES.txt'
+[0.802s] running build
+[0.802s] running build_py
+[0.802s] creating /home/khader/makentosh/build/bot/build
+[0.802s] creating /home/khader/makentosh/build/bot/build/lib
+[0.802s] creating /home/khader/makentosh/build/bot/build/lib/bot
+[0.802s] copying bot/__init__.py -> /home/khader/makentosh/build/bot/build/lib/bot
+[0.803s] running install
+[0.803s] running install_lib
+[0.803s] creating /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot
+[0.803s] copying /home/khader/makentosh/build/bot/build/lib/bot/__init__.py -> /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot
+[0.804s] byte-compiling /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot/__init__.py to __init__.cpython-310.pyc
+[0.804s] running install_data
+[0.804s] copying package.xml -> /home/khader/makentosh/install/bot/share/bot
+[0.804s] creating /home/khader/makentosh/install/bot/share/bot/launch
+[0.804s] copying launch/navigation_launch.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.804s] copying launch/online_async_launch.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.804s] copying launch/explore.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.804s] copying launch/joystick.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/launch_robot.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/localization_launch.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/launch_sim.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/ball_tracker.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/rsp.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/pi.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/camera.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/rplidar.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] copying launch/pc.launch.py -> /home/khader/makentosh/install/bot/share/bot/launch
+[0.805s] creating /home/khader/makentosh/install/bot/share/bot/description
+[0.805s] copying description/gazebo_control.xacro -> /home/khader/makentosh/install/bot/share/bot/description
+[0.806s] copying description/robot.urdf.xacro -> /home/khader/makentosh/install/bot/share/bot/description
+[0.806s] copying description/ros2_control.xacro -> /home/khader/makentosh/install/bot/share/bot/description
+[0.806s] copying description/robot.trans -> /home/khader/makentosh/install/bot/share/bot/description
+[0.806s] copying description/robot_core.xacro -> /home/khader/makentosh/install/bot/share/bot/description
+[0.806s] copying description/camera.xacro -> /home/khader/makentosh/install/bot/share/bot/description
+[0.807s] copying description/lidar.xacro -> /home/khader/makentosh/install/bot/share/bot/description
+[0.807s] creating /home/khader/makentosh/install/bot/share/bot/meshes
+[0.807s] copying meshes/camera.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.807s] copying meshes/laser_frame.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.807s] copying meshes/chassis.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.808s] copying meshes/cover.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.808s] copying meshes/LR_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.809s] copying meshes/RR_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.809s] copying meshes/LF_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.810s] copying meshes/RF_wheel.stl -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.810s] copying maps/orange.data -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.812s] copying maps/orange.pgm -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.812s] copying maps/map.posegraph -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.819s] copying maps/map.data -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.820s] copying maps/map.pgm -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.821s] copying maps/ora.data -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.822s] copying maps/orange.posegraph -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.834s] copying maps/ora.posegraph -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.847s] copying maps/ora.pgm -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.848s] copying maps/map.yaml -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.848s] copying maps/orange.yaml -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.848s] copying maps/ora.yaml -> /home/khader/makentosh/install/bot/share/bot/meshes
+[0.849s] creating /home/khader/makentosh/install/bot/share/bot/config
+[0.849s] copying config/rviz_settings.rviz -> /home/khader/makentosh/install/bot/share/bot/config
+[0.849s] copying config/ball_tracker_params_sim.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.849s] copying config/ball_tracker_params_robot.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.849s] copying config/mapper_params_online_async.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.849s] copying config/my_controllers.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.850s] copying config/nav2_params.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.850s] copying config/gaz_ros2_ctl_use_sim.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.850s] copying config/twist_mux.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.850s] copying config/joystick.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.850s] copying config/gazebo_params.yaml -> /home/khader/makentosh/install/bot/share/bot/config
+[0.850s] running install_egg_info
+[0.852s] Copying ../../build/bot/bot.egg-info to /home/khader/makentosh/install/bot/lib/python3.10/site-packages/bot-0.0.0-py3.10.egg-info
+[0.852s] running install_scripts
+[0.869s] writing list of installed files to '/home/khader/makentosh/build/bot/install.log'
+[0.887s] Invoked command in '/home/khader/makentosh/src/bot' returned '0': PYTHONPATH=/home/khader/makentosh/build/bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khader/makentosh/install/bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bot build --build-base /home/khader/makentosh/build/bot/build install --record /home/khader/makentosh/build/bot/install.log --single-version-externally-managed install_data
